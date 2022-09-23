@@ -27,6 +27,7 @@
                       <span class="mr-3 font-semibold">#{{ index + 1 }}</span>
                       {{ group.title }}
                     </p>
+                    Mooovin on up!!! Anywhere please speak to me! Please make something happen - heloooo
 
                     <div class="flex" v-if="!readonly">
                         <button
