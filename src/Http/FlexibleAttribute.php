@@ -7,7 +7,7 @@ use Illuminate\Support\Arr;
 class FlexibleAttribute
 {
     /**
-     * The Register attribute
+     * The Register attribute - knock knock, who's there?
      *
      * @var string
      */
