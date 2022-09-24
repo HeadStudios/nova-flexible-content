@@ -7,7 +7,6 @@
         :show-help-text="showHelpText"
         full-width-content>
         <template #field>
-
             <div
                 v-if="order.length > 0">
                 <form-nova-flexible-content-group
@@ -37,7 +36,6 @@
                 :resource-id="resourceId"
                 @addGroup="addGroup($event)"
             />
-
         </template>
     </component>
 </template>

@@ -1,5 +1,4 @@
 <template>
-    This better come with some perks 
     <div class="relative mb-4 pb-1" :id="group.key">
         <div class="w-full shrink">
             <div :class="titleStyle" v-if="group.title">
@@ -28,8 +27,6 @@
                       <span class="mr-3 font-semibold">#{{ index + 1 }}</span>
                       {{ group.title }}
                     </p>
-                    Mooovin on up!!! Anywhere please speak to me! Please make something happen - heloooo
-
                     <div class="flex" v-if="!readonly">
                         <button
                             dusk="move-up-group"
