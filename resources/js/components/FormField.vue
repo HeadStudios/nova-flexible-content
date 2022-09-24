@@ -7,7 +7,7 @@
         :show-help-text="showHelpText"
         full-width-content>
         <template #field>
-
+            This is the nova flexible content - compiling beautifully!
             <div
                 v-if="order.length > 0">
                 <form-nova-flexible-content-group
