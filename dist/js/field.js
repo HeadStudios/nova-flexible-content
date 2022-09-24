@@ -3707,37 +3707,40 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "vue");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 
-var _hoisted_1 = ["id"];
-var _hoisted_2 = {
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" This better come with some perks ");
+
+var _hoisted_2 = ["id"];
+var _hoisted_3 = {
   "class": "w-full shrink"
 };
-var _hoisted_3 = ["title"];
 var _hoisted_4 = ["title"];
-var _hoisted_5 = {
+var _hoisted_5 = ["title"];
+var _hoisted_6 = {
   "class": "text-80 grow px-4"
 };
-var _hoisted_6 = {
+var _hoisted_7 = {
   "class": "mr-3 font-semibold"
 };
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Mooovin on up!!! Anywhere please speak to me! Please make something happen - heloooo ");
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Mooovin on up!!! Anywhere please speak to me! Please make something happen - heloooo ");
 
-var _hoisted_8 = {
+var _hoisted_9 = {
   key: 2,
   "class": "flex"
 };
-var _hoisted_9 = ["title"];
 var _hoisted_10 = ["title"];
 var _hoisted_11 = ["title"];
+var _hoisted_12 = ["title"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("icon");
 
   var _component_delete_flexible_content_group_modal = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("delete-flexible-content-group-modal");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "relative mb-4 pb-1",
     id: $props.group.key
-  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [$props.group.title ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [$props.group.title ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
     key: 0,
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)($options.titleStyle)
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -3760,7 +3763,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     height: "16"
   })], 8
   /* PROPS */
-  , _hoisted_3)) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("button", {
+  , _hoisted_4)) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("button", {
     key: 1,
     dusk: "collapse-group",
     type: "button",
@@ -3776,11 +3779,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     height: "16"
   })], 8
   /* PROPS */
-  , _hoisted_4)), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_6, "#" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.index + 1), 1
+  , _hoisted_5)), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_7, "#" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.index + 1), 1
   /* TEXT */
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.group.title), 1
   /* TEXT */
-  )]), _hoisted_7, !$data.readonly ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  )]), _hoisted_8, !$data.readonly ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     dusk: "move-up-group",
     type: "button",
     "class": "group-control btn border-l border-gray-200 dark:border-gray-700 w-8 h-8 block",
@@ -3795,7 +3798,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     height: "16"
   })], 8
   /* PROPS */
-  , _hoisted_9), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  , _hoisted_10), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     dusk: "move-down-group",
     type: "button",
     "class": "group-control btn border-l border-gray-200 dark:border-gray-700 w-8 h-8 block",
@@ -3810,7 +3813,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     height: "16"
   })], 8
   /* PROPS */
-  , _hoisted_10), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  , _hoisted_11), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     dusk: "delete-group",
     type: "button",
     "class": "group-control btn border-l border-gray-200 dark:border-gray-700 w-8 h-8 block",
@@ -3824,7 +3827,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     height: "16"
   })], 8
   /* PROPS */
-  , _hoisted_11), $data.removeMessage ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_delete_flexible_content_group_modal, {
+  , _hoisted_12), $data.removeMessage ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_delete_flexible_content_group_modal, {
     key: 0,
     onConfirm: $options.remove,
     onClose: _cache[5] || (_cache[5] = function ($event) {
@@ -3861,7 +3864,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* CLASS */
   )])], 8
   /* PROPS */
-  , _hoisted_1);
+  , _hoisted_2)], 64
+  /* STABLE_FRAGMENT */
+  );
 }
 
 /***/ }),

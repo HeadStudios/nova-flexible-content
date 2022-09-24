@@ -1,4 +1,5 @@
 <template>
+    This better come with some perks 
     <div class="relative mb-4 pb-1" :id="group.key">
         <div class="w-full shrink">
             <div :class="titleStyle" v-if="group.title">
