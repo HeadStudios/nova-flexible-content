@@ -119,7 +119,6 @@ export default {
             return classes;
         }
     },
-
     methods: {
         /**
          * Move this group up

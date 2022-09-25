@@ -95,6 +95,12 @@ export default {
         };
     },
 
+    mounted() {
+        Nova.$on('group-adderol', function() {
+            alert("Yes we hear your adderall way over here in the repeater field... the connection is set. You may proceed young one.");
+        });
+    },
+
     methods: {
         /*
          * Set the initial, internal value for the field.
@@ -193,6 +199,14 @@ export default {
          * Append the given layout to flexible content's list
          */
         addGroup(layout, attributes, key, collapsed) {
+            console.log("Layout:");
+            console.log(layout);
+            console.log("attributes");
+            console.log(attributes);
+            console.log("key");
+            console.log(key);
+            console.log("collapsed:");
+            console.log(collapsed);
             if(!layout) return;
 
             collapsed = collapsed || false;
