@@ -73,7 +73,11 @@
         mounted() {
 
             Nova.$on('group-adderol', () => {
-              console.log("Can you hear me?"); console.log(this.$refs); }
+              console.log("Can you hear me?"); console.log(this.$refs);
+              this.toggleLayoutsDropdownOrAddDefault('event');
+              this.toggleLayoutsDropdownOrAddDefault('event');
+              this.toggleLayoutsDropdownOrAddDefault('event');
+            }
             );
 
         },

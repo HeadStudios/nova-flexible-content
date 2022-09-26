@@ -165,7 +165,7 @@
                 console.log("Layout:");
                 console.log(layout);
                 console.log("attributes");
-                console.log(attributes);
+                console.log(attributes); // comment
                 console.log("key");
                 console.log(key);
                 console.log("collapsed:");
