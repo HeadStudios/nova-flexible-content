@@ -28,7 +28,7 @@
             @click="toggleLayoutsDropdownOrAddDefault"
             v-if="isBelowLayoutLimits"
         >
-            <span>{{ field.button }}</span>
+            <span>Neo this is the one</span>
         </default-button>
     </div>
 </template>
@@ -70,12 +70,26 @@
             }
         },
 
+        mounted() {
+
+            Nova.$on('group-adderol', () => {
+              console.log("Can you hear me?"); console.log(this.$refs); }
+            );
+
+        },
+
         methods: {
             /**
              * Display or hide the layouts choice dropdown if there are multiple layouts
              * or directly add the only available layout.
              */
+            areYouThere() {
+                alert("Do you see this alert from a separate function?");
+            },
+
             toggleLayoutsDropdownOrAddDefault(event) {
+                console.log("I hear you rolling... we listening. And the event is: ");
+                console.log(event);
                 if (this.layouts.length === 1) {
                     return this.addGroup(this.layouts[0]);
                 }
